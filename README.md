@@ -2,7 +2,7 @@
 # PixelLov3! 
 ### *"En un mundo de alta definición, el amor en píxeles es el más puro."*
 
-**PixelLov3!** PixelLov3! es un generador de cartas virtuales donde el usuario no solo envía un mensaje, sino que protagoniza una pequeña aventura en pixel art. Tú diseñas a los personajes, el sistema crea la historia y tu pareja vive la experiencia.
+**PixelLov3!** es un generador de cartas virtuales donde el usuario no solo envía un mensaje, sino que protagoniza una pequeña aventura en pixel art. Tú diseñas a los personajes, el sistema crea la historia y tu pareja vive la experiencia.
 ---
 
 ## ¿Cómo funciona la experiencia?
