@@ -8,6 +8,40 @@
     <script src="js/script.js" ></script>
 </head>
 <body>
+  <div id="preview">
+    <img id="layer-fondo" src="img/fondo/default.png">
     
+    <img id="layer-piel" src="assets/pielPrueba.png">
+    
+    <img id="layer-ropa" src="assets/ropaPrueba.png">
+    <img id="layer-cuello" src="assets/">
+    
+    <img id="layer-boca" src="assets/">
+    <img id="layer-cejas" src="assets/">
+    <img id="layer-ojos" src="assets/ojosPrueba.png">
+    <img id="layer-ojos" src="assets/pupilaPrueba.png">
+    
+    <img id="layer-pelo" src="assets/cabelloPrueba.png">
+    <img id="layer-lentes" src="">
+
+    <section id="controls">
+    <div class="category">
+        <h4>Color de Piel</h4>
+        <button onclick="changeLayer('layer-piel', 'piel/clara.png')">Clara</button>
+        <button onclick="changeLayer('layer-piel', 'piel/oscura.png')">Oscura</button>
+    </div>
+
+    <div class="category">
+        <h4>Cabello</h4>
+        <div class="styles">
+            <button onclick="changeLayer('layer-pelo', 'pelo/corto_negro.png')">Corto Negro</button>
+            <button onclick="changeLayer('layer-pelo', 'pelo/corto_rubio.png')">Corto Rubio</button>
+            <button onclick="changeLayer('layer-pelo', 'pelo/largo_negro.png')">Largo Negro</button>
+        </div>
+    </div>
+    
+    </section>
+</div>
+</main>
 </body>
 </html>

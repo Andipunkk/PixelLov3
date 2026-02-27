@@ -1,0 +1,28 @@
+#preview {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 20px auto;
+    border: 5px solid #ff80ab; /* Estilo cute */
+    overflow: hidden;
+}
+
+#preview img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* El Z-INDEX es la clave del orden */
+#layer-fondo  { z-index: 1; }
+#layer-piel   { z-index: 2; }
+#layer-ropa   { z-index: 3; }
+#layer-cuello { z-index: 4; }
+#layer-boca   { z-index: 5; }
+#layer-cejas  { z-index: 6; }
+#layer-ojos   { z-index: 7; }
+#layer-pelo   { z-index: 8; }
+#layer-lentes { z-index: 9; }
