@@ -8,37 +8,36 @@
     <script src="js/script.js" ></script>
 </head>
 <body>
+    <section id="controls">
+        <div class="category">
+            <h4>Color de Piel</h4>
+            <button onclick="changeLayer('layer-piel', 'BasesCuerpo/BaseCuerpo2.png')">Clara</button>
+            <button onclick="changeLayer('layer-piel', 'BasesCuerpo/BaseCuerpo6.png')">Oscura</button>
+        </div>
+
+        <div class="category">
+            <h4>Cabello</h4>
+            <div class="styles">
+                <button onclick="changeLayer('layer-pelo', 'Pelos/Corto/peloCortoNegro.png')">Corto Negro</button>
+                <button onclick="changeLayer('layer-pelo', 'Pelos/Corto/peloCortoRubio.png')">Corto Rubio</button>
+                <button onclick="changeLayer('layer-pelo', 'Pelos/Largo/peloLargoNegro.png')">Largo Negro</button>
+            </div>
+        </div>
+    </section>
   <div id="preview">
 
     
+    
     <img id="layer-piel" src="assets/BasesCuerpo/BaseCuerpo2.png">
     
-    <img id="layer-ropa" src="assets/ropaPrueba.png">
-    <img id="layer-accesorio" src="assets/">
+    <img id="layer-ropa" src="assets/Ropa/ropa1.png">
+    <img id="layer-accesorio" src="assets/logo.png" style="display: none;">
     
     <img id="layer-ojos" src="assets/Ojos/ojoNegro.png">
     
     <img id="layer-pelo" src="assets/Pelos/Medio/peloMedioNegro.png">
-    <img id="layer-lentes" src="">
+    <img id="layer-lentes" src="assets/logo.png" style="display: none;">
     <img id="layer-fondo" src="assets/Fondos/fondoPrueba4.jpg">
-
-    <section id="controls">
-    <div class="category">
-        <h4>Color de Piel</h4>
-        <button onclick="changeLayer('layer-piel', 'piel/clara.png')">Clara</button>
-        <button onclick="changeLayer('layer-piel', 'piel/oscura.png')">Oscura</button>
-    </div>
-
-    <div class="category">
-        <h4>Cabello</h4>
-        <div class="styles">
-            <button onclick="changeLayer('layer-pelo', 'pelo/corto_negro.png')">Corto Negro</button>
-            <button onclick="changeLayer('layer-pelo', 'pelo/corto_rubio.png')">Corto Rubio</button>
-            <button onclick="changeLayer('layer-pelo', 'pelo/largo_negro.png')">Largo Negro</button>
-        </div>
-    </div>
-    
-    </section>
 </div>
 </main>
 </body>

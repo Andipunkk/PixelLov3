@@ -1,6 +1,6 @@
 function changeLayer(id, fileName) {
     const img = document.getElementById(id);
-    img.src = `img/${fileName}`;
+    img.src = `assets/${fileName}`;
 }
 
 function setHairColor(colorName) {
